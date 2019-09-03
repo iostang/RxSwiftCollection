@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6375F8F633D910E47B8895E5 /* Pods_RxSwiftCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5F9E0A771C5E69FF0BAB12 /* Pods_RxSwiftCollection.framework */; };
 		B4677ADD231E2BA300CC324A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677ADC231E2BA300CC324A /* AppDelegate.swift */; };
 		B4677ADF231E2BA300CC324A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677ADE231E2BA300CC324A /* ViewController.swift */; };
 		B4677AE2231E2BA300CC324A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4677AE0231E2BA300CC324A /* Main.storyboard */; };
 		B4677AE4231E2BA400CC324A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4677AE3231E2BA400CC324A /* Assets.xcassets */; };
 		B4677AE7231E2BA400CC324A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4677AE5231E2BA400CC324A /* LaunchScreen.storyboard */; };
+		B4677AEF231E2DD300CC324A /* RxCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AEE231E2DD300CC324A /* RxCollectionView.swift */; };
+		B4677AF1231E2ECD00CC324A /* RxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AF0231E2ECD00CC324A /* RxModel.swift */; };
+		B4677AF3231E2F4B00CC324A /* RxCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AF2231E2F4B00CC324A /* RxCollectionViewModel.swift */; };
+		B4677AF5231E38B300CC324A /* RxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AF4231E38B300CC324A /* RxCollectionViewCell.swift */; };
+		B4677AF7231E3BBF00CC324A /* RxCollectionSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AF6231E3BBF00CC324A /* RxCollectionSectionViewModel.swift */; };
+		B4677AF9231E3BDD00CC324A /* RxBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AF8231E3BDD00CC324A /* RxBaseViewModel.swift */; };
+		B4677AFB231E3C9800CC324A /* RxCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AFA231E3C9800CC324A /* RxCollectionReusableView.swift */; };
+		B4677AFF231E476F00CC324A /* RxCollectionItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677AFE231E476F00CC324A /* RxCollectionItemViewModel.swift */; };
+		B4677B04231E4D0600CC324A /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677B03231E4D0600CC324A /* UIColor+Random.swift */; };
+		B4677B06231E4D5200CC324A /* RxCollectionViewCell+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4677B05231E4D5200CC324A /* RxCollectionViewCell+Rx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D19DFA0989348BE9196CC27 /* Pods-RxSwiftCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCollection.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftCollection/Pods-RxSwiftCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		A0EA9BF150474A9AA1918A69 /* Pods-RxSwiftCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCollection.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftCollection/Pods-RxSwiftCollection.release.xcconfig"; sourceTree = "<group>"; };
 		B4677AD9231E2BA300CC324A /* RxSwiftCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4677ADC231E2BA300CC324A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4677ADE231E2BA300CC324A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		B4677AE3231E2BA400CC324A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4677AE6231E2BA400CC324A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4677AE8231E2BA400CC324A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4677AEE231E2DD300CC324A /* RxCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionView.swift; sourceTree = "<group>"; };
+		B4677AF0231E2ECD00CC324A /* RxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxModel.swift; sourceTree = "<group>"; };
+		B4677AF2231E2F4B00CC324A /* RxCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewModel.swift; sourceTree = "<group>"; };
+		B4677AF4231E38B300CC324A /* RxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4677AF6231E3BBF00CC324A /* RxCollectionSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionSectionViewModel.swift; sourceTree = "<group>"; };
+		B4677AF8231E3BDD00CC324A /* RxBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBaseViewModel.swift; sourceTree = "<group>"; };
+		B4677AFA231E3C9800CC324A /* RxCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionReusableView.swift; sourceTree = "<group>"; };
+		B4677AFE231E476F00CC324A /* RxCollectionItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionItemViewModel.swift; sourceTree = "<group>"; };
+		B4677B03231E4D0600CC324A /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
+		B4677B05231E4D5200CC324A /* RxCollectionViewCell+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxCollectionViewCell+Rx.swift"; sourceTree = "<group>"; };
+		DE5F9E0A771C5E69FF0BAB12 /* Pods_RxSwiftCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6375F8F633D910E47B8895E5 /* Pods_RxSwiftCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482EAB50AED71BCCA70791EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5F9E0A771C5E69FF0BAB12 /* Pods_RxSwiftCollection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F32AC0B5BFD3F518688038B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D19DFA0989348BE9196CC27 /* Pods-RxSwiftCollection.debug.xcconfig */,
+				A0EA9BF150474A9AA1918A69 /* Pods-RxSwiftCollection.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B4677AD0231E2BA300CC324A = {
 			isa = PBXGroup;
 			children = (
 				B4677ADB231E2BA300CC324A /* RxSwiftCollection */,
 				B4677ADA231E2BA300CC324A /* Products */,
+				7F32AC0B5BFD3F518688038B /* Pods */,
+				482EAB50AED71BCCA70791EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +100,54 @@
 			children = (
 				B4677ADC231E2BA300CC324A /* AppDelegate.swift */,
 				B4677ADE231E2BA300CC324A /* ViewController.swift */,
+				B4677B03231E4D0600CC324A /* UIColor+Random.swift */,
+				B4677B07231E4E2200CC324A /* Rx */,
+				B4677B02231E4CE600CC324A /* Model */,
+				B4677B01231E4CD700CC324A /* ViewModel */,
+				B4677B00231E4CCB00CC324A /* View */,
 				B4677AE0231E2BA300CC324A /* Main.storyboard */,
 				B4677AE3231E2BA400CC324A /* Assets.xcassets */,
 				B4677AE5231E2BA400CC324A /* LaunchScreen.storyboard */,
 				B4677AE8231E2BA400CC324A /* Info.plist */,
 			);
 			path = RxSwiftCollection;
+			sourceTree = "<group>";
+		};
+		B4677B00231E4CCB00CC324A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4677AEE231E2DD300CC324A /* RxCollectionView.swift */,
+				B4677AFA231E3C9800CC324A /* RxCollectionReusableView.swift */,
+				B4677AF4231E38B300CC324A /* RxCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4677B01231E4CD700CC324A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4677AF2231E2F4B00CC324A /* RxCollectionViewModel.swift */,
+				B4677AF6231E3BBF00CC324A /* RxCollectionSectionViewModel.swift */,
+				B4677AFE231E476F00CC324A /* RxCollectionItemViewModel.swift */,
+				B4677AF8231E3BDD00CC324A /* RxBaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4677B02231E4CE600CC324A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4677AF0231E2ECD00CC324A /* RxModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4677B07231E4E2200CC324A /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				B4677B05231E4D5200CC324A /* RxCollectionViewCell+Rx.swift */,
+			);
+			path = Rx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4677AEB231E2BA400CC324A /* Build configuration list for PBXNativeTarget "RxSwiftCollection" */;
 			buildPhases = (
+				C81CB5171A2F7B430C8FBCCA /* [CP] Check Pods Manifest.lock */,
 				B4677AD5231E2BA300CC324A /* Sources */,
 				B4677AD6231E2BA300CC324A /* Frameworks */,
 				B4677AD7231E2BA300CC324A /* Resources */,
+				FFE10048805301138BB04279 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +218,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C81CB5171A2F7B430C8FBCCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftCollection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE10048805301138BB04279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftCollection/Pods-RxSwiftCollection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftCollection/Pods-RxSwiftCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4677AD5231E2BA300CC324A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4677AF5231E38B300CC324A /* RxCollectionViewCell.swift in Sources */,
+				B4677AFF231E476F00CC324A /* RxCollectionItemViewModel.swift in Sources */,
+				B4677AFB231E3C9800CC324A /* RxCollectionReusableView.swift in Sources */,
+				B4677AF9231E3BDD00CC324A /* RxBaseViewModel.swift in Sources */,
 				B4677ADF231E2BA300CC324A /* ViewController.swift in Sources */,
+				B4677AEF231E2DD300CC324A /* RxCollectionView.swift in Sources */,
+				B4677AF3231E2F4B00CC324A /* RxCollectionViewModel.swift in Sources */,
+				B4677B06231E4D5200CC324A /* RxCollectionViewCell+Rx.swift in Sources */,
+				B4677AF7231E3BBF00CC324A /* RxCollectionSectionViewModel.swift in Sources */,
+				B4677B04231E4D0600CC324A /* UIColor+Random.swift in Sources */,
 				B4677ADD231E2BA300CC324A /* AppDelegate.swift in Sources */,
+				B4677AF1231E2ECD00CC324A /* RxModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +439,7 @@
 		};
 		B4677AEC231E2BA400CC324A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D19DFA0989348BE9196CC27 /* Pods-RxSwiftCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +458,7 @@
 		};
 		B4677AED231E2BA400CC324A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0EA9BF150474A9AA1918A69 /* Pods-RxSwiftCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
